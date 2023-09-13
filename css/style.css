@@ -1,0 +1,79 @@
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  
+  /* display: flex; */
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  /* color: #fdf7f7; */
+  background: rgb(90, 192, 232);
+  transition: 0.3s;
+
+  width: 130px;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+body {
+  /* margin: 0; */
+  margin-top: 0px;
+  background-color: #f9f9f9;
+}
+
+.up_block {
+  /* display: flex; */
+  position: fixed;
+  background-color: #f9f9f9;
+  flex-direction: row;
+
+  border: solid rgb(90, 192, 232);
+  padding: 7px 5px;
+}
+
+#send-text{
+  border: solid rgb(90, 192, 232);
+  padding: 7px 5px;
+  width: 250px;
+}
+
+.msg_block{
+  border: solid rgb(90, 192, 232);
+  display: flex;
+  flex-direction: column;
+  width: 583px;
+  min-height: 250px;
+}
+
+.msg-first {
+  margin-top: 150px;
+}
+
+.msg {
+  border: solid rgb(90, 192, 232);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  max-width: 250px;
+}
+
+.msg-client{
+  align-self: flex-end;
+}
+
+.msg-server{
+  align-self: flex-start;
+}
